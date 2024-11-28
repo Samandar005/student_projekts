@@ -1,0 +1,354 @@
+# https://www.toptal.com/developers/gitignore/api/python,django,pycharm+all tomonidan yaratilgan
+# Tahrirlash: https://www.toptal.com/developers/gitignore?templates=python,django,pycharm+all
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-jurnal
+ommaviy axborot vositalari
+
+# Agar qurish jarayoni collectstatic-ni o'z ichiga olsa, unda siz statik fayllarni kiritishingiz shart emas yoki qo'shmoqchi emassiz/
+# Git omboringizda. Quyidagi qatorni mos ravishda yangilang va izohni olib tashlang.
+# <django-project-name>/staticfiles/
+
+### Django.Python Stack ###
+# Bayt-kompilyatsiya qilingan / optimallashtirilgan / DLL fayllari
+*.py[cod]
+*$py.class
+
+# C kengaytmalari
+*.shunday
+
+# Tarqatish / qadoqlash
+.Python
+qurish/
+rivojlantirish-tuxum/
+dist/
+yuklamalar/
+tuxum/
+.tuxum/
+lib/
+lib64/
+qismlar/
+sdist/
+var/
+g'ildiraklar/
+Share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.tuxum
+MANIFEST
+
+# PyInstaller
+# Odatda bu fayllar shablondan python skripti tomonidan yoziladi
+# PyInstaller exe faylini yaratishdan oldin, unga sana/boshqa ma'lumotlarni kiritish uchun.
+*.manifest
+*.spec
+
+# O'rnatish jurnallari
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Birlik sinovi / qamrov hisobotlari
+htmlcov/
+.tox/
+.nox/
+.qoplama
+.qoplama.*
+.kesh
+nosetests.xml
+coverage.xml
+*.qopqoq
+*.py,qopqoq
+.gipoteza/
+.pytest_cache/
+qopqoq/
+
+# Tarjimalar
+*.mo
+
+# Django materiallari:
+
+# Kolbadagi narsalar:
+misol/
+.websets-kesh
+
+# Nopok narsalar:
+.scrapy
+
+# Sfenks hujjatlari
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+maqsad/
+
+# Jupyter daftarchasi
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# Kutubxona yoki paket uchun siz ushbu fayllarni e'tiborsiz qoldirishingiz mumkin, chunki kod mavjud
+# bir nechta muhitda ishlash uchun mo'ljallangan; aks holda, ularni tekshiring:
+# .python versiyasi
+
+# pipenv
+# pypa/pipenv#598 ga binoan Pipfile.lock ni versiya boshqaruviga kiritish tavsiya etiladi.
+# Biroq, hamkorlikda, agar platformaga xos bog'liqliklar yoki bog'liqliklar mavjud bo'lsa
+# platformalararo qo'llab-quvvatlashga ega bo'lmagan holda, pipenv ishlamaydigan yoki ishlamaydigan bog'liqliklarni o'rnatishi mumkin
+# barcha kerakli bog'liqliklarni o'rnating.
+#Pipfile.lock
+
+#she'r
+# Pipfile.lock ga o'xshab, odatda versiya boshqaruviga poetry.lock qo'shish tavsiya etiladi.
+# Bu, ayniqsa, takrorlanishini ta'minlash uchun ikkilik paketlar uchun tavsiya etiladi va ko'proq
+# kutubxonalar uchun odatda e'tiborga olinmaydi.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+# Pipfile.lock ga o'xshab, odatda pdm.lockni versiya boshqaruviga kiritish tavsiya etiladi.
+#pdm.lock
+# pdm loyiha konfiguratsiyasini .pdm.toml da saqlaydi, lekin uni kiritmaslik tavsiya etiladi
+# versiya boshqaruvida.
+# https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; github.com/David-OConnor/pyflow va github.com/pdm-project/pdm tomonidan foydalaniladi
+__pypaketlar__/
+
+# Selderey mahsulotlari
+seldereybeat-jadval
+seldereybeat.pid
+
+# SageMath tahlil qilingan fayllar
+*.sage.py
+
+# Atrof-muhit
+.env
+.venv
+env/
+venn/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder loyihasi sozlamalari
+.spyderproject
+.spyproject
+
+# Arqon loyihasi sozlamalari
+.ropeproject
+
+# mkdocs hujjatlari
+/sayt
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre turi tekshirgich
+.pyre/
+
+# pytype statik turdagi analizator
+.pytype/
+
+# Cython disk raskadrovka belgilari
+cython_debug/
+
+# PyCharm
+# JetBrains-ga xos shablon alohida JetBrains.gitignore-da saqlanadi
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore saytida topishingiz mumkin
+# va global gitignorega qo'shilishi yoki ushbu faylga birlashtirilishi mumkin. Ko'proq yadro uchun
+# variant (tavsiya etilmaydi) siz butun g'oyalar jildiga e'tibor bermaslik uchun quyidagi izohni bekor qilishingiz mumkin.
+#.idea/
+
+### PyCharm+hammasi ###
+# JetBrains IDE-larini qamrab oladi: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm va Rider
+# Malumot: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Foydalanuvchi uchun maxsus narsalar
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/lug'atlar
+.idea/**/shelf
+
+# AWS foydalanuvchiga xos
+.idea/**/aws.xml
+
+# Yaratilgan fayllar
+.idea/**/contentModel.xml
+
+# Nozik yoki ko'p vaqt talab qiladigan fayllar
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle va Maven avtomatik import bilan
+# Gradle yoki Maven-ni avtomatik import bilan ishlatganda, modul fayllarini chiqarib tashlashingiz kerak,
+# chunki ular qayta yaratiladi va buzilishga olib kelishi mumkin. Foydalanilayotgan bo'lsa izohni olib tashlang
+# avtomatik import.
+# .g'oya/artefaktlar
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .g'oya/modullar
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plagini
+.idea/**/mongoSettings.xml
+
+# Faylga asoslangan loyiha formati
+*.iws
+
+# IntelliJ
+tashqariga/
+
+# mpeltonen/sbt-idea plagini
+.idea_modules/
+
+# JIRA plagini
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plagini
+.idea/replstate.xml
+
+# SonarLint plagini
+.idea/sonarlint/
+
+# Crashlytics plagini (Android Studio va IntelliJ uchun)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+mato.xususiyatlari
+
+# Tahririyatga asoslangan dam olish mijozi
+.idea/httpRequests
+
+# Android studio 3.1+ seriyali kesh fayli
+.idea/caches/build_file_checksums.ser
+
+### PyCharm+barcha yamoq ###
+# Kod uslubi sozlamalari va ishga tushirish konfiguratsiyasidan tashqari hamma narsaga e'tibor bermang
+# jamoalar ichida baham ko'rilishi kerak.
+
+.idea/*
+
+!.idea/codeStyles
+!.idea/runConfigurations
+
+### Python ###
+# Bayt-kompilyatsiya qilingan / optimallashtirilgan / DLL fayllari
+
+# C kengaytmalari
+
+# Tarqatish / qadoqlash
+
+# PyInstaller
+# Odatda bu fayllar shablondan python skripti tomonidan yoziladi
+# PyInstaller exe faylini yaratishdan oldin, unga sana/boshqa ma'lumotlarni kiritish uchun.
+
+# O'rnatish jurnallari
+
+# Birlik sinovi / qamrov hisobotlari
+
+# Tarjimalar
+
+# Django materiallari:
+
+# Kolbadagi narsalar:
+
+# Nopok narsalar:
+
+# Sfenks hujjatlari
+
+# PyBuilder
+
+# Jupyter daftarchasi
+
+# IPython
+
+# pyenv
+# Kutubxona yoki paket uchun siz ushbu fayllarni e'tiborsiz qoldirishingiz mumkin, chunki kod mavjud
+# bir nechta muhitda ishlash uchun mo'ljallangan; aks holda, ularni tekshiring:
+# .python versiyasi
+
+# pipenv
+# pypa/pipenv#598 ga binoan Pipfile.lock ni versiya boshqaruviga kiritish tavsiya etiladi.
+# Biroq, hamkorlikda, agar platformaga xos bog'liqliklar yoki bog'liqliklar mavjud bo'lsa
+# platformalararo qo'llab-quvvatlashga ega bo'lmagan holda, pipenv ishlamaydigan yoki ishlamaydigan bog'liqliklarni o'rnatishi mumkin
+# barcha kerakli bog'liqliklarni o'rnating.
+
+#she'r
+# Pipfile.lock ga o'xshab, odatda versiya boshqaruviga poetry.lock qo'shish tavsiya etiladi.
+# Bu, ayniqsa, takrorlanishini ta'minlash uchun ikkilik paketlar uchun tavsiya etiladi va ko'proq
+# kutubxonalar uchun odatda e'tiborga olinmaydi.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+
+# pdm
+# Pipfile.lock ga o'xshab, odatda pdm.lockni versiya boshqaruviga kiritish tavsiya etiladi.
+# pdm loyiha konfiguratsiyasini .pdm.toml da saqlaydi, lekin uni kiritmaslik tavsiya etiladi
+# versiya boshqaruvida.
+# https://pdm.fming.dev/#use-with-ide
+
+# PEP 582; github.com/David-OConnor/pyflow va github.com/pdm-project/pdm tomonidan foydalaniladi
+
+# Selderey mahsulotlari
+
+# SageMath tahlil qilingan fayllar
+
+# Atrof-muhit
+
+# Spyder loyihasi sozlamalari
+
+# Arqon loyihasi sozlamalari
+
+# mkdocs hujjatlari
+
+# mypy
+
+# Pyre turi tekshirgich
+
+# pytype statik turdagi analizator
+
+# Cython disk raskadrovka belgilari
+
+# PyCharm
+# JetBrains-ga xos shablon alohida JetBrains.gitignore-da saqlanadi
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore saytida topishingiz mumkin
+# va global gitignorega qo'shilishi yoki ushbu faylga birlashtirilishi mumkin. Ko'proq yadro uchun
+# variant (tavsiya etilmaydi) siz butun g'oyalar jildiga e'tibor bermaslik uchun quyidagi izohni bekor qilishingiz mumkin.
+
+### Python patch ###
+# She'rning mahalliy konfiguratsiya fayli - https://python-poetry.org/docs/configuration/#local-configuration
+she'riyat.toml
+
+# ruff
+.ruff_cache/
+
+# LSP konfiguratsiya fayllari
+pyrightconfig.json
+
+# Oxiri https://www.toptal.com/developers/gitignore/api/python,django,pycharm+all
